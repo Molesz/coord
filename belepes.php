@@ -61,12 +61,12 @@ include 'config.php';
       <div class="login-container bg-white">
         <div class="p-l-50 m-l-20 p-r-50 m-r-20 p-t-50 m-t-30 sm-p-l-15 sm-p-r-15 sm-p-t-40">
           <img src="assets/img/logo.png" alt="logo" data-src="assets/img/logo.png" data-src-retina="assets/img/logo_2x.png" width="78" height="22">
-          <p class="p-t-35">Sign into your pages account</p>
+          <p class="p-t-35">Üdvözöllek a Coord oldalán</p>
           <!-- START Login Form -->
           <form id="form-login" class="p-t-15" role="form" action="index.html">
             <!-- START Form Control-->
             <div class="form-group form-group-default">
-              <label>Login</label>
+              <label>Belépés</label>
               <div class="controls">
                 <input type="text" name="username" placeholder="User Name" class="form-control" required>
               </div>
@@ -84,11 +84,11 @@ include 'config.php';
               <div class="col-md-6 no-padding">
                 <div class="checkbox ">
                   <input type="checkbox" value="1" id="checkbox1">
-                  <label for="checkbox1">Keep Me Signed in</label>
+                  <label for="checkbox1">Emlékezz rám</label>
                 </div>
               </div>
               <div class="col-md-6 text-right">
-                <a href="#" class="text-info small">Help? Contact Support</a>
+                <a href="#" class="text-info small">Segítségre van szükséged? Lépj kapcsolatba velünk.</a>
               </div>
             </div>
             <!-- END Form Control-->
@@ -104,7 +104,7 @@ include 'config.php';
                 <p>
                   <small>
 									Create a pages account. If you have a facebook account, log into it for this
-									process. Sign in with <a href="#" class="text-info">Facebook</a> or <a href="#"
+									process. Sign in with <a href="reg.php" class="text-info">Facebook</a> or <a href="#"
 									                                                                       class="text-info">Google</a>
 								</small>
                 </p>
