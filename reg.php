@@ -3,7 +3,9 @@
   <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
+
     <title>Coord - Regisztráció</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
     <link rel="apple-touch-icon" href="pages/ico/60.png">
     <link rel="apple-touch-icon" sizes="76x76" href="pages/ico/76.png">
@@ -41,51 +43,81 @@
         <div class="row row-sm-height">
           <div class="col-sm-12 col-sm-height col-middle">
             <img src="assets/img/logo.png" alt="logo" data-src="assets/img/logo.png" data-src-retina="assets/img/logo_2x.png" width="78" height="22">
-            <h3>Pages makes it easy to enjoy what matters the most in your life</h3>
+            <h3>Regisztráció a Coord rendszerébe</h3>
             <p>
               <small>
-        Create a pages account. If you have a facebook account, log into it for this process. Sign in with <a href="#" class="text-info">Facebook</a> or <a href="#" class="text-info">Google</a>
-    </small>
+        Kérlek vedd figyelembe, hogy az oldal jelenleg teszt üzemmódban van, így néhány funkció hibásan működhet. Amíg a teszt üzemmód nem ér véget, 
+        addig az oldal használata ingyenes. A teszt időszak végén, minden tesztelőt kiértesítünk, így mindenki eldöntheti, hogy szeretne-e maradni, vagy sem.
             </p>
             <form id="form-register" class="p-t-15" role="form" action="index.html">
               <div class="row">
                 <div class="col-sm-6">
                   <div class="form-group form-group-default">
                     <label>Vezetéknév</label>
-                    <input type="text" name="fname" placeholder="John" class="form-control" required>
+
+                    
+
+                    <input type="text" name="vezetek" placeholder="John" class="form-control" required>
+
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group form-group-default">
-                    <label>Kersztnév</label>
-                    <input type="text" name="lname" placeholder="Smith" class="form-control" required>
+
+                    <label>Keresztnév</label>
+                    <input type="text" name="kereszt" placeholder="Smith" class="form-control" required>
+
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm-12">
                   <div class="form-group form-group-default">
-                    <label>Pages User name</label>
-                    <input type="text" name="uname" placeholder="yourname.pages.com (this can be changed later)" class="form-control" required>
+                    <label>Munkahely</label>
+                    <input type="text" name="munkahely" placeholder="" class="form-control" required>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm-12">
                   <div class="form-group form-group-default">
-                    <label>Password</label>
-                    <input type="password" name="pass" placeholder="Minimum of 4 Charactors" class="form-control" required>
+                    <label>Jelszó</label>
+                    <input type="password" name="jelszo" placeholder="Minimum 4 karakter" class="form-control" required>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm-12">
                   <div class="form-group form-group-default">
-                    <label>Email</label>
-                    <input type="email" name="email" placeholder="We will send loging details to you" class="form-control" required>
+                    <label>Email cím</label>
+                    <input type="email" name="email" placeholder="" class="form-control" required>
                   </div>
                 </div>
               </div>
+                
+                 <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Munkaeszköz</label>
+                <div class="radio radio-success">
+                    
+    <input type="radio" checked="checked" value="3,5" name="3,5" id="radio2Yes">
+    <label for="radio2Yes">3,5 tonnáig</label>
+    
+    <input type="radio" value="7,5" name="7,5" id="radio2No">
+    <label for="radio2No">7,5 tonnáig</label>
+    
+    <input type="radio" value="24" name="24" id="radio3No">
+    <label for="radio3No">24 tonnáig</label>
+    
+    <input type="radio" value="24plusz" name="24plusz" id="radio4No">
+    <label for="radio4No">24 tonna felett</label>
+</div>
+                    </div>
+                </div>
+                 </div>
+                
+                <br/><br/>
               <div class="row m-t-10">
                 <div class="col-md-6">
                   <p>I agree to the <a href="#" class="text-info small">Pages Terms</a> and <a href="#" class="text-info small">Privacy</a>.</p>
