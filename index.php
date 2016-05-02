@@ -1,5 +1,6 @@
 <?php
 session_start();
+include 'config.php';
 
 /// Session ellenrzése. Ha nincs, akkor átdob a belépés oldalra.
 if(isset( $_SESSION['user'] ))
